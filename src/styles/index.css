@@ -1,12 +1,55 @@
+.todolist-header{
+    position: relative;
+    display: inline-block;
+}
 
-/* 
 
-    You can write your own styles here...
+.todos{
+     position: absolute;
+     top: 40%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color:purple;
+     justify-content: center;
+     font-size: 8rem;
+   
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.todolist{
+width: 100%;
+height: 300px;
+}
+.placetodos{
+    margin-left: 30rem;
+    margin-top: 8rem;
+    width: 500px;
+    height: 40px;
+    line-height: 40px;
+    border-color: purple;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:peru;
+     justify-content: center;
+     font-size: 2rem;
+     font-family: revert-layer;
+}
+
+.imcross{
+    font-size: 20px;
+    color: red;
+    display: flex;
+    justify-content: end;
+    margin-right: 5rem;
+
+}
+.text-item{
+    font-size: 30px;
+    color: peru;
+    display: flex;
+    justify-content: end;
+    margin-right: 5rem;
+    font-family: revert-layer;
+}
+
